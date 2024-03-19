@@ -1,1 +1,3 @@
 # classification-challenge
+<h2>Understanding the Difference Between Models</h2>
+<p>The LogisticRegression model performed a prediction of 92.00% accuracy score whereas the RandomForestClassifier model performed a prediction of 96.01%.  There is reason to believe that the n_estimators=500 assisted in the accuracy since the higher number of estimators, the likely the predictions are to be stronger and more stable.  This was tested by changing the n_estimator=10 which resulted in a lower score but higher than the LogisticRegression model.  It is something to note that during a reset of the kernel, the percentages changed with RandomForestClassifier still being a higher rating.</p>
